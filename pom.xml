@@ -11,6 +11,9 @@
 	<groupId>com.example.devapps</groupId>
 	<artifactId>devapps-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<build>
+	<finalName>jenkins-docker-integration</finalName>
+	</build>
 	<name>devapps-demo</name>
 	<description>Demo project for Spring Boot for dev apps using jenkins</description>
 	<url/>

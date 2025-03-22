@@ -1,4 +1,4 @@
 FROM openjdk:21
 EXPOSE 5000
-COPY --from=build /home/app/target/*.jar app.jar
-ENTRYPOINT [ "sh", "-c", "java -jar /app.jar" ]
+Add target/jenkins-docker-integration.jar jenkins-docker-integration.jar
+ENTRYPOINT ["java -jar /jenkins-docker-integration.jar" ]
