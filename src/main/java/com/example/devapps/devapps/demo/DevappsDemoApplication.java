@@ -9,8 +9,7 @@ public class DevappsDemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DevappsDemoApplication.class, args);
 		
-		System.out.println("jenkins automation");
-		System.out.println("jenkins automation");
+		System.out.println("My first jenkions-docker");
 	}
 
 }
