@@ -11,9 +11,6 @@
 	<groupId>com.example.devapps</groupId>
 	<artifactId>devapps-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<build>
-	<finalName>jenkins-docker-integration</finalName>
-	</build>
 	<name>devapps-demo</name>
 	<description>Demo project for Spring Boot for dev apps using jenkins</description>
 	<url/>
@@ -46,6 +43,7 @@
 	</dependencies>
 
 	<build>
+	<finalName>jenkins-docker-integration</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -53,5 +51,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
